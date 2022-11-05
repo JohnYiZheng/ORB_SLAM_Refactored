@@ -22,7 +22,7 @@
 #include "Converter.h"
 #include "ros/ros.h"
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 std::vector<cv::Mat> Converter::toDescriptorVector(const cv::Mat &Descriptors)
@@ -159,4 +159,4 @@ std::vector<float> Converter::toQuaternion(const cv::Mat &M)
     return v;
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

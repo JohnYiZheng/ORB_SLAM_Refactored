@@ -29,7 +29,7 @@
 
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class MapPoint;
@@ -77,6 +77,6 @@ protected:
     bool mbMapUpdated;
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // MAP_H

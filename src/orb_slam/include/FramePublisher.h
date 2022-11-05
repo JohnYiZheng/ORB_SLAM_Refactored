@@ -33,7 +33,7 @@
 #include <boost/thread.hpp>
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class Tracking;
@@ -79,6 +79,6 @@ protected:
     boost::mutex mMutex;
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // FRAMEPUBLISHER_H

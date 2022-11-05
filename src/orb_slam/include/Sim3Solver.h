@@ -28,7 +28,7 @@
 
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class Sim3Solver
@@ -131,6 +131,6 @@ protected:
 
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // SIM3SOLVER_H

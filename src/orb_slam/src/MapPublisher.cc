@@ -22,13 +22,13 @@
 #include "MapPoint.h"
 #include "KeyFrame.h"
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 
 MapPublisher::MapPublisher(Map* pMap):mpMap(pMap), mbCameraUpdated(false)
 {
-    const char* MAP_FRAME_ID = "/ORB_SLAM/World";
+    const char* MAP_FRAME_ID = "/orb_slam/World";
     const char* POINTS_NAMESPACE = "MapPoints";
     const char* KEYFRAMES_NAMESPACE = "KeyFrames";
     const char* GRAPH_NAMESPACE = "Graph";
@@ -107,7 +107,7 @@ MapPublisher::MapPublisher(Map* pMap):mpMap(pMap), mbCameraUpdated(false)
     mReferencePoints.color.a = 1.0;
 
     //Configure Publisher
-    publisher = nh.advertise<visualization_msgs::Marker>("ORB_SLAM/Map", 10);
+    publisher = nh.advertise<visualization_msgs::Marker>("orb_slam/Map", 10);
 
     publisher.publish(mPoints);
     publisher.publish(mReferencePoints);
@@ -373,4 +373,4 @@ void MapPublisher::ResetCamFlag()
     mbCameraUpdated = false;
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

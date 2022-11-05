@@ -61,7 +61,7 @@
 
 using namespace std;
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 
@@ -1020,4 +1020,4 @@ void PnPsolver::mat_to_quat(const double R[3][3], double q[4])
   q[3] *= scale;
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

@@ -23,7 +23,7 @@
 
 #include <ros/ros.h>
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 long unsigned int Frame::nNextId=0;
 bool Frame::mbInitialComputations=true;
@@ -348,4 +348,4 @@ void Frame::ComputeImageBounds()
     }
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

@@ -25,7 +25,7 @@
 #include "Frame.h"
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class Initializer
@@ -96,6 +96,6 @@ private:
 
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // INITIALIZER_H

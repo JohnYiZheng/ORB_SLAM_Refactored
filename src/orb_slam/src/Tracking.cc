@@ -39,7 +39,7 @@
 
 using namespace std;
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 
@@ -139,7 +139,7 @@ Tracking::Tracking(ORBVocabulary* pVoc, FramePublisher *pFramePublisher, MapPubl
 
     tf::Transform tfT;
     tfT.setIdentity();
-    mTfBr.sendTransform(tf::StampedTransform(tfT,ros::Time::now(), "/ORB_SLAM/World", "/ORB_SLAM/Camera"));
+    mTfBr.sendTransform(tf::StampedTransform(tfT,ros::Time::now(), "/orb_slam/World", "/orb_slam/Camera"));
 }
 
 void Tracking::SetLocalMapper(LocalMapping *pLocalMapper)
@@ -311,7 +311,7 @@ void Tracking::GrabImage(const sensor_msgs::ImageConstPtr& msg)
 
         tf::Transform tfTcw(M,V);
 
-        mTfBr.sendTransform(tf::StampedTransform(tfTcw,ros::Time::now(), "ORB_SLAM/World", "ORB_SLAM/Camera"));
+        mTfBr.sendTransform(tf::StampedTransform(tfTcw,ros::Time::now(), "orb_slam/World", "orb_slam/Camera"));
     }
 
 }
@@ -1093,4 +1093,4 @@ void Tracking::CheckResetByPublishers()
     }
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

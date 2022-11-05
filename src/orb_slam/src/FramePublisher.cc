@@ -28,7 +28,7 @@
 #include <ros/ros.h>
 #include <cv_bridge/cv_bridge.h>
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 FramePublisher::FramePublisher()
@@ -37,7 +37,7 @@ FramePublisher::FramePublisher()
     mIm = cv::Mat(480,640,CV_8UC3, cv::Scalar(0,0,0));
     mbUpdated = true;
 
-    mImagePub = mNH.advertise<sensor_msgs::Image>("ORB_SLAM/Frame",10,true);
+    mImagePub = mNH.advertise<sensor_msgs::Image>("orb_slam/Frame",10,true);
 
     PublishFrame();
 }
@@ -205,4 +205,4 @@ void FramePublisher::Update(Tracking *pTracker)
     mbUpdated=true;
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

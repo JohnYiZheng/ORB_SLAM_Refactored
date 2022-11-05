@@ -29,7 +29,7 @@
 #include "KeyFrameDatabase.h"
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class Tracking;
@@ -108,6 +108,6 @@ protected:
     boost::mutex mMutexAccept;
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // LOCALMAPPING_H

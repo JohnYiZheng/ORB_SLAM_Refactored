@@ -28,7 +28,7 @@
 #include "MapPoint.h"
 #include "KeyFrame.h"
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class MapPublisher
@@ -70,6 +70,6 @@ private:
     boost::mutex mMutexCamera;
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // MAPPUBLISHER_H

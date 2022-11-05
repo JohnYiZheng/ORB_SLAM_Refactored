@@ -28,7 +28,7 @@
 #include <boost/thread.hpp>
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class ImageFeature;
@@ -131,6 +131,6 @@ protected:
      boost::mutex mMutexFeatures;
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // MAPPOINT_H

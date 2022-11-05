@@ -22,7 +22,7 @@
 #include "ORBmatcher.h"
 #include "ros/ros.h"
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 long unsigned int MapPoint::nNextId=0;
@@ -323,4 +323,4 @@ float MapPoint::GetMaxDistanceInvariance()
     return mfMaxDistance;
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

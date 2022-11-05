@@ -26,7 +26,7 @@
 
 using namespace std;
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 KeyFrameDatabase::KeyFrameDatabase (const ORBVocabulary &voc):
@@ -307,4 +307,4 @@ vector<KeyFrame*> KeyFrameDatabase::DetectRelocalisationCandidates(Frame *F)
     return vpRelocCandidates;
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

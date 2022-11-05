@@ -20,7 +20,7 @@
 
 #include "Map.h"
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 Map::Map()
@@ -135,4 +135,4 @@ void Map::clear()
     mvpReferenceMapPoints.clear();
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

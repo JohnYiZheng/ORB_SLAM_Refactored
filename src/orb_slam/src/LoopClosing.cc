@@ -32,7 +32,7 @@
 
 #include "g2o/types/sim3/types_seven_dof_expmap.h"
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 LoopClosing::LoopClosing(Map *pMap, KeyFrameDatabase *pDB, ORBVocabulary *pVoc):
@@ -600,4 +600,4 @@ void LoopClosing::ResetIfRequested()
     }
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

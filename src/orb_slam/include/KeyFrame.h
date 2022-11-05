@@ -32,7 +32,7 @@
 #include <boost/thread.hpp>
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class Map;
@@ -237,6 +237,6 @@ protected:
     boost::mutex mMutexImage;
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // KEYFRAME_H

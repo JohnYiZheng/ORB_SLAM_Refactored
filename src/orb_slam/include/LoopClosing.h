@@ -32,7 +32,7 @@
 
 #include "g2o/types/sim3/types_seven_dof_expmap.h"
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class Tracking;
@@ -110,6 +110,6 @@ protected:
     long unsigned int mLastLoopKFid;
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // LOOPCLOSING_H

@@ -67,7 +67,7 @@
 using namespace cv;
 using namespace std;
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 const float HARRIS_K = 0.04f;
@@ -821,4 +821,4 @@ void ORBextractor::ComputePyramid(cv::Mat image, cv::Mat Mask)
 
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

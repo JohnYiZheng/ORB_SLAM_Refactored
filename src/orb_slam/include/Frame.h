@@ -30,7 +30,7 @@
 
 #include <opencv2/opencv.hpp>
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 #define FRAME_GRID_ROWS 48
 #define FRAME_GRID_COLS 64
@@ -137,6 +137,6 @@ private:
     cv::Mat mtcw;
 };
 
-}// namespace ORB_SLAM
+}// namespace orb_slam
 
 #endif // FRAME_H

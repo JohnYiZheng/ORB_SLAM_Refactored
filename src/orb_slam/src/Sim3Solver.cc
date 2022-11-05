@@ -22,7 +22,9 @@
 
 #include <vector>
 #include <cmath>
+#include <opencv2/imgproc/types_c.h>
 #include <opencv2/opencv.hpp>
+
 #include <ros/ros.h>
 
 #include "KeyFrame.h"
@@ -30,9 +32,10 @@
 
 #include "DUtils/Random.h"
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
+using namespace cv;
 
 Sim3Solver::Sim3Solver(KeyFrame *pKF1, KeyFrame *pKF2, const vector<MapPoint *> &vpMatched12):
     mnIterations(0), mnBestInliers(0)
@@ -417,4 +420,4 @@ void Sim3Solver::FromCameraToImage(const vector<cv::Mat> &vP3Dc, vector<cv::Mat>
     }
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

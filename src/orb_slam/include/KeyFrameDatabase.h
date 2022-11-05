@@ -32,7 +32,7 @@
 #include <boost/thread.hpp>
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class KeyFrame;
@@ -69,6 +69,6 @@ protected:
   boost::mutex mMutex;
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif

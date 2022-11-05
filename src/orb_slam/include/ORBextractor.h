@@ -26,7 +26,7 @@
 #include <opencv2/opencv.hpp>
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class ORBextractor
@@ -76,7 +76,7 @@ protected:
 
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif
 

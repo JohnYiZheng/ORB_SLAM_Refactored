@@ -27,7 +27,7 @@
 
 #include <boost/thread.hpp>
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 Initializer::Initializer(const Frame &ReferenceFrame, float sigma, int iterations)
@@ -926,4 +926,4 @@ void Initializer::DecomposeE(const cv::Mat &E, cv::Mat &R1, cv::Mat &R2, cv::Mat
         R2=-R2;
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

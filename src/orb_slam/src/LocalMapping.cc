@@ -25,7 +25,7 @@
 
 #include <ros/ros.h>
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 LocalMapping::LocalMapping(Map *pMap):
@@ -614,4 +614,4 @@ void LocalMapping::ResetIfRequested()
     }
 }
 
-} //namespace ORB_SLAM
+} //namespace orb_slam

@@ -34,7 +34,7 @@ Visualization Manager:
   Displays:
     - Class: rviz/Marker
       Enabled: true
-      Marker Topic: /ORB_SLAM/Map
+      Marker Topic: /orb_slam/Map
       Name: Marker
       Namespaces:
         Camera: true
@@ -46,7 +46,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 255; 255; 255
-    Fixed Frame: /ORB_SLAM/Camera
+    Fixed Frame: /orb_slam/Camera
   Name: root
   Tools:
     - Class: rviz/Interact
@@ -74,7 +74,7 @@ Visualization Manager:
       Name: Current View
       Near Clip Distance: 0.01
       Pitch: -0.854796
-      Target Frame: /ORB_SLAM/Camera
+      Target Frame: /orb_slam/Camera
       Value: Orbit (rviz)
       Yaw: 4.6604
     Saved: ~

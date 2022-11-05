@@ -13,7 +13,7 @@ cd $OPEN_SOURCE_DIR
 echo "create temp dir 'src' to save downloads"
 mkdir -p src
 git clone --branch 20201223_git https://github.com/RainerKuemmerle/g2o.git src/g2o
-
+# sudo apt-get install libsuitesparse-dev
 cd src/g2o
 mkdir build && cd build
 cmake .. \

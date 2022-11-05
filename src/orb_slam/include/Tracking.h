@@ -40,7 +40,7 @@
 #include <tf/transform_broadcaster.h>
 
 
-namespace ORB_SLAM
+namespace orb_slam
 {
 
 class FramePublisher;
@@ -182,6 +182,6 @@ protected:
     tf::TransformBroadcaster mTfBr;
 };
 
-} //namespace ORB_SLAM
+} //namespace orb_slam
 
 #endif // TRACKING_H
