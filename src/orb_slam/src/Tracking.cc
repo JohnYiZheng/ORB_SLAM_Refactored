@@ -139,7 +139,7 @@ Tracking::Tracking(ORBVocabulary* pVoc, FramePublisher *pFramePublisher, MapPubl
 
     tf::Transform tfT;
     tfT.setIdentity();
-    mTfBr.sendTransform(tf::StampedTransform(tfT,ros::Time::now(), "/orb_slam/World", "/orb_slam/Camera"));
+    mTfBr.sendTransform(tf::StampedTransform(tfT,ros::Time::now(), "orb_slam/World", "/orb_slam/Camera"));
 }
 
 void Tracking::SetLocalMapper(LocalMapping *pLocalMapper)

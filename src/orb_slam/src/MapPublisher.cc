@@ -28,7 +28,7 @@ namespace orb_slam
 
 MapPublisher::MapPublisher(Map* pMap):mpMap(pMap), mbCameraUpdated(false)
 {
-    const char* MAP_FRAME_ID = "/orb_slam/World";
+    const char* MAP_FRAME_ID = "orb_slam/World";
     const char* POINTS_NAMESPACE = "MapPoints";
     const char* KEYFRAMES_NAMESPACE = "KeyFrames";
     const char* GRAPH_NAMESPACE = "Graph";
